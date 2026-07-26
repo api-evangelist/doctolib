@@ -1,0 +1,28 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.doctolib.com/
+versioning: {}
+deprecation: {}
+sla: {}
+status_page: https://status.doctolib.com/
+status_page_platform: Atlassian Statuspage
+status_components:
+- Calendar
+- Task manager
+- My activity
+- Phone assistant
+- Patient Management
+- Telehealth
+- Patient messaging
+- Doctolib Connect
+- Clinical software
+- Patient billing
+- Connection with medical device
+- Support Doctolib
+notes: >-
+  Doctolib publishes a public Atlassian Statuspage covering 11 service
+  components. No public versioning policy, deprecation policy (RFC 8594
+  Sunset/Deprecation headers), or SLA document was found on the public surface;
+  the developer portal (developers.doctolib.com) is authentication-gated (HTTP
+  401) so any documented lifecycle policy is not publicly observable.
+deprecated_operations: []

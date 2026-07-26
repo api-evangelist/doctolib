@@ -1,8 +1,30 @@
 aid: doctolib
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doctolib.png
 name: Doctolib
-description: 'Doctolib is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Doctolib is a European e-health company founded in 2013 and headquartered in
+  Levallois-Perret, France, operating across France, Germany, Italy and the
+  Netherlands. It provides an online medical appointment-booking platform and
+  practice-management software used by patients and by hundreds of thousands of
+  healthcare professionals and facilities. Its product surface spans appointment
+  booking, telehealth/video consultation, patient messaging, clinical software,
+  patient billing, and the Doctolib Connect integration and single-sign-on
+  layer. Doctolib exposes a partner/integration API via an authentication-gated
+  developer portal (developers.doctolib.com); it publishes an RFC 9116
+  security.txt and runs a public YesWeHack bug-bounty program, an Atlassian
+  Statuspage, and an open-source GitHub organization, but does not publish a
+  public OpenAPI specification, first-party API SDK, or hosted MCP server.
 url: https://raw.githubusercontent.com/api-evangelist/doctolib/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- E-Health
+- Appointment Booking
+- Telehealth
+- Practice Management
+- Patient Engagement
+- SaaS
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.doctolib.fr
+  url: https://www.doctolib.fr
+- type: DeveloperPortal
+  url: https://developers.doctolib.com/
+- type: SignUp
+  url: https://pro.doctolib.fr
+- type: GitHubOrganization
+  url: https://github.com/doctolib
+- type: StatusPage
+  url: https://status.doctolib.com/
+- type: Lifecycle
+  url: lifecycle/doctolib-lifecycle.yml
+- type: WellKnown
+  url: well-known/doctolib-well-known.yml
+- type: SecurityTxt
+  url: security/doctolib-security.txt
+- type: Security
+  url: https://yeswehack.com/programs/doctolib-public-bug-bounty-program
+- type: VulnerabilityDisclosure
+  url: security/doctolib-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/doctolib-domain-security.yml
+- type: LLMsTxt
+  url: llms/doctolib-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,25 @@
+# Doctolib
+
+> Doctolib is a European e-health company (founded 2013, headquartered in Levallois-Perret, France) providing an online medical appointment-booking platform and practice-management software for healthcare professionals and patients across France, Germany, Italy and the Netherlands. Its products include appointment booking, telehealth, patient messaging, clinical software, patient billing and the Doctolib Connect integration/SSO surface. Doctolib exposes a partner/integration API through an authentication-gated developer portal; no public OpenAPI, SDK, or hosted MCP server is published.
+
+## Company
+- [Doctolib website](https://www.doctolib.fr): Patient- and practitioner-facing product site.
+- [Doctolib Pro](https://pro.doctolib.fr): Practitioner portal and sign-up.
+- [About Doctolib](https://about.doctolib.fr): Company / careers information.
+
+## Developer
+- [Developer portal](https://developers.doctolib.com/): Partner/integration API documentation (authentication-gated, HTTP 401).
+- [GitHub organization](https://github.com/doctolib): Public open-source repositories (infrastructure and tooling; no first-party API SDKs).
+
+## Operations
+- [Status page](https://status.doctolib.com/): Atlassian Statuspage covering 11 service components (Calendar, Telehealth, Patient Management, Doctolib Connect, Clinical software, Patient billing, and more).
+
+## Security
+- [security.txt](https://www.doctolib.fr/.well-known/security.txt): RFC 9116 disclosure policy (PGP-signed).
+- [Bug bounty](https://yeswehack.com/programs/doctolib-public-bug-bounty-program): Public vulnerability disclosure program administered via YesWeHack.
+
+## API Evangelist artifacts
+- [Well-known index](well-known/doctolib-well-known.yml)
+- [Domain security probe](security/doctolib-domain-security.yml)
+- [Vulnerability disclosure](security/doctolib-vulnerability-disclosure.yml)
+- [Lifecycle / status](lifecycle/doctolib-lifecycle.yml)
